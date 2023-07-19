@@ -8,7 +8,6 @@ Welcome to DecentraVote, a blockchain-based voting platform that aims to revolut
 2. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-   - [Deployment](#deployment)
 3. [Features](#features)
    - [Adding Candidates](#adding-candidates)
    - [Voter Registration](#voter-registration)
