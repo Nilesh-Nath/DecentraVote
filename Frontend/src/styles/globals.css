@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(152, 161, 192);
+  background: linear-gradient(
+    40deg,
+    rgba(19, 26, 42, 1) 0%,
+    rgba(8, 11, 17, 1) 100%
+  );
+}
+
+.custom-file-label {
+  width: 50%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(186, 186, 186);
+}
+
+.custom-file-input {
+  display: none;
+}
